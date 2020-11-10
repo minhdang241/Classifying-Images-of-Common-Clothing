@@ -6,7 +6,7 @@ This project is to train 3 models including a three-hidden layer neural network,
 https://github.com/zalandoresearch/fashion-mnist
 
 ### Measurement
-The best accuracy is 95.8% using WRN-28-10
+The best accuracy on validation set and test set are 95.8% and 95.3% respectively using WRN-28-10
 
 ### Required packages
 - ipywidgets: conda install -c conda-forge ipywidgets (this package used by torch.hub to show the progress bar when we download dataset )
@@ -18,3 +18,6 @@ Note: you may close the notebook and reopen again
 - seaborn
 - sklearn
 - PIL
+
+### Trained model and checkpoints
+https://drive.google.com/drive/folders/1rOa4GUicLW7qpe3MTKrgRbzAJCflRzaL?usp=sharing
